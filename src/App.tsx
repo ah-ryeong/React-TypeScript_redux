@@ -1,5 +1,6 @@
 import React from 'react';
 import CounterContainer from './containers/CounterContainer';
+import GithubProfileLoader from './containers/GithubProfileLoader';
 import TodoApp from './containers/TodoApp';
 
 const App: React.FC = () => {
@@ -7,6 +8,7 @@ const App: React.FC = () => {
     <>
      <CounterContainer />
      <TodoApp />
+     <GithubProfileLoader />
     </>
   );
 }
